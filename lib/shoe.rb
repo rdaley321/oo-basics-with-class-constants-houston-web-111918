@@ -18,5 +18,5 @@ class Shoe
     self.brand = brand
     BRANDS << brand
   end
-
+  BRANDS.uniq!
 end
